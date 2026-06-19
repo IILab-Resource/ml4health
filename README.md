@@ -5,7 +5,7 @@ Machine learning teaching modules for medical data
 
 ## 教程模块
 
-| 模块 | 主题 | 脚本 |
+| 模块 | 主题 | 
 |------|------|------|
 | 01 | **探索性数据分析 EDA** — 数据概况、缺失值分析、分布分析、离群值检测、可视化 |  
 | 02 | **统计分析** — 假设检验、正态性检验、T 检验 / Mann-Whitney、卡方检验、效应量、多重比较校正 |  
@@ -21,8 +21,8 @@ Machine learning teaching modules for medical data
 | 12 | **模型解释（SHAP + LIME）** — 全局与局部解释、SHAP 蜂群图/依赖图/瀑布图、LIME、对比分析 |  
 | 12b | **高级 SHAP 可视化** — 二次拟合、3D SHAP 空间、力量矩阵、趋势图、交互网络、分位数分析 |  
 | 13 | **SHAP 交互效应分析** — 交互强度量化、交互矩阵、深度交互面板、Friedman's H 统计量 | 
-| 14 | **SHAP 依赖图与数据密度** — 双轴密度依赖图、密度风险比、特征可信度映射 | — |
-| 15 | **SHAP 聚类分析** — 基于 SHAP 值的子群发现、聚类画像、SHAP 空间 PCA | — |
-| 16 | **SHAP 决策路径分析** — 单样本预测路径可视化、累积 SHAP log-odds、雷达图 | — |
-| 17 | **SHAP 稳定性 Bootstrap 分析** — 基于重抽样的不确定性量化、四象限可靠性评估 | — |
-| 18 | **异质性处理效应 HTE（双重机器学习 DML）** — 因果推断、CATE 估计、CausalForestDML、DROrthoForest | — |
+| 14 | **SHAP 依赖图与数据密度** — 双轴密度依赖图、密度风险比、特征可信度映射 | 
+| 15 | **SHAP 聚类分析** — 基于 SHAP 值的子群发现、聚类画像、SHAP 空间 PCA | 
+| 16 | **SHAP 决策路径分析** — 单样本预测路径可视化、累积 SHAP log-odds、雷达图 | 
+| 17 | **SHAP 稳定性 Bootstrap 分析** — 基于重抽样的不确定性量化、四象限可靠性评估 | 
+| 18 | **异质性处理效应 HTE（双重机器学习 DML）** — 因果推断、CATE 估计、CausalForestDML、DROrthoForest |  

@@ -132,7 +132,7 @@ warnings.filterwarnings('ignore')
 ## 三、路径配置
 
 ```python
-BASE_DIR = "/home/wjj/Documents/trae_projects/ml_template"
+BASE_DIR = ""
 DATA_PATH = os.path.join(BASE_DIR, "data", "cancer_data_eng.csv")
 IMG_DIR = os.path.join(BASE_DIR, "img")
 RESULTS_DIR = os.path.join(BASE_DIR, "results")

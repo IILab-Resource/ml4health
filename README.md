@@ -1,7 +1,5 @@
 # ml4health
-Machine learning teaching modules for medical data
-
-
+基于南京医科大学卓越工程师初阶学习的医学机器学习教程项目，覆盖从探索性数据分析、统计检验到高级模型解释和因果推断的完整 ML 流程，配有详细的教学文档和可复现的 Python 代码。
 
 ## 教程模块
 
@@ -26,3 +24,54 @@ Machine learning teaching modules for medical data
 | 16 | **SHAP 决策路径分析** — 单样本预测路径可视化、累积 SHAP log-odds、雷达图 | 
 | 17 | **SHAP 稳定性 Bootstrap 分析** — 基于重抽样的不确定性量化、四象限可靠性评估 | 
 | 18 | **异质性处理效应 HTE（双重机器学习 DML）** — 因果推断、CATE 估计、CausalForestDML、DROrthoForest |  
+
+
+## 项目结构
+
+```
+├── lectures/             # 教学讲义：概念框架与扩展
+├── notes/                # 代码精读笔记：逐行讲解代码意图
+├── jupyter/              # Jupyter notebook：交互式运行环境
+├── data/                 # 数据集
+```
+
+
+
+## 如何阅读本项目
+
+本项目的文档分布在三个文件夹中，按照**四步法**阅读效果最佳：
+
+```
+Step 1               Step 2            Step 3              Step 4
+读讲义前半            看代码笔记          动手运行            读讲义后半
+(学什么、为什么)       (代码为什么这么写)    (跑起来看看)         (还能做什么、有什么坑)
+  │                    │                  │                   │
+  ▼                    ▼                  ▼                   ▼
+lectures/             notes/             src/ 或 jupyter/     lectures/
+(前 3 节)             (if available)     (run scripts)       (后几节：扩展/盲区/思考题)
+```
+
+> 💡 详细说明见 [STUDY_GUIDE.md](STUDY_GUIDE.md)
+
+### 快速导航
+
+| 我想…… | 应该去哪里 |
+|---------|-----------|
+| 了解某个模块的整体概念 | [`lectures/`](lectures/) — 打开对应编号的讲义 |
+| 理解代码逐行在做什么 | [`notes/`](notes/) —  配有精读笔记 |
+| 交互式操作数据 | [`jupyter/`](jupyter/) — 教程有 Notebook |
+| 学完后综合实践 | [`TASKS.md`](TASKS.md) — 6 个整合节点 + 1 个可视化系统 |
+| 查找某个知识点 | [`lectures/knowledge_tree.html`](lectures/knowledge_tree.html) — 300+ 节点知识树 |
+
+
+## 学习路径概览
+
+整个教程分为 4 个阶段，每个阶段完成后都有对应的综合实践任务（详见 [TASKS.md](TASKS.md)）：
+
+| 阶段 | 模块 | 核心内容 | 综合节点 |
+|------|------|---------|---------|
+| **基础入门** | 01-02 | EDA + 统计分析 | Node 1：完整 EDA 报告 |
+| **特征工程** | 03-05 | 预处理 → 特征构造 → 特征选择 | Node 2：完整流水线 |
+| **建模评估** | 06-11 | 降维 → 防泄漏 → CV → 建模 → 不平衡 → DCA | Node 3-4：审计 + 端到端 |
+| **可解释性 & 因果** | 12-18 | SHAP 全系列 + 双重机器学习 DML | Node 5-7：SHAP 报告 + 可视化系统 |
+

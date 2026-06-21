@@ -34,26 +34,37 @@
 
 ## 四组笔记速览
 
+
+
 ### 教程 01：EDA（模块 00-04）
 
-| 模块 | 内容 | 
+| 模块 | 内容 |
 |------|------|
-| [00](00_module0_data_loading.md) | 环境准备与数据加载 | 
-| [01](01_module1_data_overview.md) | 数据集概览与缺失值矩阵 | 
-| [02](02_module2_missing_values.md) | 缺失值深度分析 | 
-| [03](03_module3_distribution.md) | 数值特征分布分析 |
-| [04](04_module4_outliers.md) | 离群值检测与处理 |
+| [00_module0_data_loading.md](00_module0_data_loading.md) | 环境准备与数据加载 |
+| [01_module1_data_overview.md](01_module1_data_overview.md) | 数据集概览与缺失值矩阵 |
+| [02_module2_missing_values.md](02_module2_missing_values.md) | 缺失值深度分析 |
+| [03_module3_distribution.md](03_module3_distribution.md) | 数值特征分布分析 |
+| [04_module4_outliers.md](04_module4_outliers.md) | 离群值检测与处理 |
 
 ### 教程 02：统计分析（模块 10-14）
 
-| 模块 | 内容 | 
+| 模块 | 内容 |
 |------|------|
-| [10](10_module0_data_loading.md) | 数据加载与目标变量创建 |
-| [11](11_module1_feature_classification.md) | 特征分类与方法选择 |
-| [12](12_module2_numerical_tests.md) | 数值特征统计检验 | 
-| [13](13_module3_chi_square.md) | 分类特征卡方检验 | 
-| [14](14_module4_summary_visualization.md) | 结果汇总与可视化 | 
+| [10_module0_data_loading.md](10_module0_data_loading.md) | 数据加载与目标变量创建 |
+| [11_module1_feature_classification.md](11_module1_feature_classification.md) | 特征分类与方法选择 |
+| [12_module2_numerical_tests.md](12_module2_numerical_tests.md) | 数值特征统计检验 |
+| [13_module3_chi_square.md](13_module3_chi_square.md) | 分类特征卡方检验 |
+| [14_module4_summary_visualization.md](14_module4_summary_visualization.md) | 结果汇总与可视化 |
 
+### 教程 03：预处理与插补（模块 20-24）
+
+| 模块 | 内容 |
+|------|------|
+| [20_module0_data_loading.md](20_module0_data_loading.md) | 数据加载与特征选择 |
+| [21_module1_split_encoding.md](21_module1_split_encoding.md) | 数据集划分与编码 |
+| [22_module2_imputation_methods.md](22_module2_imputation_methods.md) | 四种插补方法对比 |
+| [23_module3_model_evaluation.md](23_module3_model_evaluation.md) | 模型训练与评估 |
+| [24_module4_visualization.md](24_module4_visualization.md) | 结果可视化 |
 
 
 

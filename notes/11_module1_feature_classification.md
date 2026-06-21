@@ -243,7 +243,6 @@ def check_normality_practical(data, sample_limit=5000):
 def check_normality_practical(data, sample_limit=5000):
 ```
 
-- **函数名** `check_normality_practical`：名字里的 `practical`（实用）强调这是一个"工程实用"版本，不是教科书上的标准做法，而是针对大样本数据做的优化。
 - **参数 `data`**：传入一个 pandas Series（某列数值数据）。
 - **参数 `sample_limit=5000`**：抽样上限，默认 5000。当数据量超过这个值时，做正式正态性检验前会先抽样。`sample_limit=5000` 是默认参数，调用时可以省略，也可以自定义（如 `check_normality_practical(data, sample_limit=3000)`）。
 

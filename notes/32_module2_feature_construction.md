@@ -14,7 +14,7 @@
 
 > **前置知识**：Pandas 的 `apply` 方法、布尔索引、`.loc` 索引、NumPy 的 `np.nan`、本案例教程模块 1（数据标准化比较）的输出。
 
-> **本模块对应代码**：`src/04_feature_engineering.py` 第 306–367 行。
+
 
 ---
 

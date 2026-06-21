@@ -1,6 +1,6 @@
 # 模块 0：数据加载与基础预处理
 
-> 本模块是案例教程 4「特征工程」的起点，承接案例教程 1（EDA）、案例教程 2（统计学分析）和案例教程 3（数据预处理与缺失值插补）。在比较不同标准化方法和构造新特征之前，我们必须先把数据加载进内存、构造目标变量、采样、精选一组有代表性的基础特征，并对分类变量做标签编码。本模块对应代码文件 `src/04_feature_engineering.py` 的第 20–91 行。
+> 本模块是案例教程 4「特征工程」的起点，承接案例教程 1（EDA）、案例教程 2（统计学分析）和案例教程 3（数据预处理与缺失值插补）。在比较不同标准化方法和构造新特征之前，我们必须先把数据加载进内存、构造目标变量、采样、精选一组有代表性的基础特征，并对分类变量做标签编码。
 >
 > 本模块最核心的知识点有三个：**一是 `RobustScaler` 的引入**——这是本教程新增的标准化器，用中位数和四分位距（IQR）替代均值和标准差；**二是 `base_features` 列表的设计**——为什么从 5 个特征扩展到 6 个，新增的 `Code.Profession` 如何制造"量纲差异"这一教学重点；**三是量纲差异如何成为后续标准化比较的动机**——Age 跨度约 120、year 跨度约 15、Code.Profession 跨度约 9999，这种巨大差异会让逻辑回归"偏心"大量纲特征。
 
@@ -46,28 +46,6 @@ warnings.filterwarnings('ignore')
 
 ### 1.1 基础库（与案例教程 3 相同）
 
-#### `import pandas as pd`
-
-**pandas** 是 Python 中最核心的数据分析库，提供 `DataFrame` 二维表格结构。在本教程中用于：`read_csv()` 读数据、`map()` 标签映射、`dropna()` 删除缺失行、`isnull()` 检测缺失值、`apply()` 应用编码函数等。
-
-#### `import numpy as np`
-
-**NumPy** 是 Python 数值计算的基石，提供高效的多维数组 `ndarray`。在本教程中用于：`np.random.seed()` 设置随机种子、`np.random.choice()` 采样、`np.nan` 表示缺失值等。
-
-#### `import matplotlib.pyplot as plt`
-
-**matplotlib** 是 Python 最基础的可视化库。本教程后续会绘制标准化分布对比图、系数对比图、ROC 曲线、PR 曲线、特征构造性能对比图等。
-
-> 💡 **与案例教程 3 的区别**：案例教程 3 还导入了 `from matplotlib import gridspec`，用于精细控制子图布局（因为要画 4 种插补方法的对比图）。本教程的对比维度更简单（3 种标准化、2 种特征集），用普通的 `plt.subplots` 就够了，所以不再需要 `gridspec`。
-
-#### `import os` 和 `import warnings`
-
-- **os**：标准库，用于路径操作（`os.path.join()`、`os.makedirs()`）。
-- **warnings**：标准库，`warnings.filterwarnings('ignore')` 关闭所有警告，让输出更干净。
-
-#### `import time`
-
-**time** 是 Python 标准库，用于记录时间。本教程会用 `time.time()` 记录不同标准化方法下逻辑回归的**收敛速度**——这是评估标准化效果的重要维度（标准化后模型通常收敛更快）。
 
 ### 1.2 sklearn 模块详解（重点关注新增的 RobustScaler）
 
@@ -169,7 +147,7 @@ sklearn（scikit-learn）是 Python 最主流的机器学习库。本教程从 s
 ## 二、路径配置与目录创建
 
 ```python
-BASE_DIR = "/home/wjj/Documents/trae_projects/ml_template"
+BASE_DIR = ""
 DATA_PATH = os.path.join(BASE_DIR, "data", "cancer_data_eng.csv")
 IMG_DIR = os.path.join(BASE_DIR, "img")
 RESULTS_DIR = os.path.join(BASE_DIR, "results")
@@ -178,15 +156,9 @@ os.makedirs(IMG_DIR, exist_ok=True)
 os.makedirs(RESULTS_DIR, exist_ok=True)
 ```
 
-这部分与前三个教程完全一致，简要说明：
+这部分与前三个教程完全一致。
 
-- `BASE_DIR`：项目根目录，所有路径基于它拼接。
-- `DATA_PATH`：数据文件路径，指向 `data/cancer_data_eng.csv`（英文版癌症数据）。
-- `IMG_DIR` / `RESULTS_DIR`：图片和结果输出目录。本教程会输出 7 张图（`07a`–`07g`）和 2 个结果文件（`09_scaling_comparison`、`10_feature_engineering_comparison`）。
-- `os.path.join()`：跨平台拼接路径（Windows 用 `\`，Linux/Mac 用 `/`）。
-- `os.makedirs(..., exist_ok=True)`：递归创建目录，`exist_ok=True` 表示目录已存在时不报错。
 
-> 💡 **小贴士**：脚本开头提前创建输出目录是好习惯，避免脚本运行到一半保存文件时才发现目录不存在。
 
 ---
 

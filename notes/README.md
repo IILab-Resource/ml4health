@@ -70,6 +70,14 @@
 
 
 
+### 教程 04：特征工程（模块 30-33）
+
+| 模块 | 内容 |
+|------|------|
+| [30_module0_data_loading.md](30_module0_data_loading.md) | 数据加载与基础预处理 |
+| [31_module1_scaling.md](31_module1_scaling.md) | 四种标准化方法比较 |
+| [32_module2_feature_construction.md](32_module2_feature_construction.md) | 特征构造（多项式、交互、分组） |
+| [33_module3_comparison.md](33_module3_comparison.md) | 标准化前后模型对比 |
 
 
 

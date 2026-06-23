@@ -80,7 +80,15 @@
 | [33_module3_comparison.md](33_module3_comparison.md) | 标准化前后模型对比 |
 
 
+### 教程 05：特征选择（模块 50-54）
 
+| 模块 | 内容 |
+|------|------|
+| [50_module0_data_loading.md](50_module0_data_loading.md) | 数据加载与基础预处理 |
+| [51_module1_correlation_vif.md](51_module1_correlation_vif.md) | 相关性分析与 VIF |
+| [52_module2_filter_lasso.md](52_module2_filter_lasso.md) | 过滤法与 Lasso |
+| [53_module3_rf_boruta.md](53_module3_rf_boruta.md) | 随机森林与 Boruta |
+| [54_module4_validation_summary.md](54_module4_validation_summary.md) | 验证与总结 |
 
 ## 使用方法
 

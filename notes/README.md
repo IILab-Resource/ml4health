@@ -90,6 +90,17 @@
 | [53_module3_rf_boruta.md](53_module3_rf_boruta.md) | 随机森林与 Boruta |
 | [54_module4_validation_summary.md](54_module4_validation_summary.md) | 验证与总结 |
 
+
+### 教程 06：降维与聚类（模块 60-64）
+
+| 模块 | 内容 |
+|------|------|
+| [60_module0_data_loading.md](60_module0_data_loading.md) | 数据加载与预处理 |
+| [61_module1_curse_of_dimensionality.md](61_module1_curse_of_dimensionality.md) | 维度灾难演示 |
+| [62_module2_dim_reduction_visualization.md](62_module2_dim_reduction_visualization.md) | PCA/t-SNE/UMAP 降维可视化 |
+| [63_module3_clustering.md](63_module3_clustering.md) | K-Means 与层次聚类 |
+| [64_module4_pca_for_ml.md](64_module4_pca_for_ml.md) | PCA 用于机器学习加速 |
+
 ## 使用方法
 
 **推荐顺序**（与 STUDY_GUIDE.md 的四步法一致）：

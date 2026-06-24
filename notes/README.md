@@ -101,6 +101,16 @@
 | [63_module3_clustering.md](63_module3_clustering.md) | K-Means 与层次聚类 |
 | [64_module4_pca_for_ml.md](64_module4_pca_for_ml.md) | PCA 用于机器学习加速 |
 
+
+### 教程 07：数据泄漏（模块 70-73）
+
+| 模块 | 内容 |
+|------|------|
+| [70_module0_data_loading.md](70_module0_data_loading.md) | 数据加载与划分 |
+| [71_module1_standardization_leakage.md](71_module1_standardization_leakage.md) | 标准化中的数据泄漏 |
+| [72_module2_feature_selection_leakage.md](72_module2_feature_selection_leakage.md) | 特征选择中的数据泄漏 |
+| [73_module3_comprehensive_pipeline.md](73_module3_comprehensive_pipeline.md) | 综合 Pipeline 防范 |
+
 ## 使用方法
 
 **推荐顺序**（与 STUDY_GUIDE.md 的四步法一致）：

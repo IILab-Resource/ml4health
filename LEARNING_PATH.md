@@ -555,7 +555,6 @@
 - 表格深度学习：TabNet、NODE、FT-Transformer
 - 深度森林 gcForest：级联结构 + 多粒度扫描
 - 超参数优化：Grid Search、Random Search、Bayesian Optimization、群体智能算法
-- 论文趋势：2015-18 LR+RF → 2019-22 XGBoost 主导 → 2023-26 多模型+SHAP+校准+亚组
 
 ---
 

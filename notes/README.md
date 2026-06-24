@@ -122,6 +122,18 @@
 | [82_module2_repeated_and_loocv.md](82_module2_repeated_and_loocv.md) | RepeatedKFold 与 LOOCV |
 | [83_module3_nested_and_summary.md](83_module3_nested_and_summary.md) | 嵌套交叉验证与总结 |
 
+
+
+
+### 教程 09：模型比较（模块 91-94）
+
+| 模块 | 内容 |
+|------|------|
+| [91_module1_pipeline_cv_framework.md](91_module1_pipeline_cv_framework.md) | Pipeline 与 CV 框架 |
+| [92_module2_seven_models.md](92_module2_seven_models.md) | 七种模型配置 |
+| [93_module3_training_evaluation.md](93_module3_training_evaluation.md) | 模型训练与评估 |
+| [94_module4_visualization_results.md](94_module4_visualization_results.md) | 结果可视化 |
+
 ## 使用方法
 
 **推荐顺序**（与 STUDY_GUIDE.md 的四步法一致）：

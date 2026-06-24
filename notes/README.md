@@ -111,6 +111,17 @@
 | [72_module2_feature_selection_leakage.md](72_module2_feature_selection_leakage.md) | 特征选择中的数据泄漏 |
 | [73_module3_comprehensive_pipeline.md](73_module3_comprehensive_pipeline.md) | 综合 Pipeline 防范 |
 
+
+
+### 教程 08：交叉验证（模块 80-83）
+
+| 模块 | 内容 |
+|------|------|
+| [80_module0_data_and_pipeline.md](80_module0_data_and_pipeline.md) | 数据准备与 Pipeline 构建 |
+| [81_module1_split_and_kfold.md](81_module1_split_and_kfold.md) | 数据划分与 KFold |
+| [82_module2_repeated_and_loocv.md](82_module2_repeated_and_loocv.md) | RepeatedKFold 与 LOOCV |
+| [83_module3_nested_and_summary.md](83_module3_nested_and_summary.md) | 嵌套交叉验证与总结 |
+
 ## 使用方法
 
 **推荐顺序**（与 STUDY_GUIDE.md 的四步法一致）：

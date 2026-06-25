@@ -134,6 +134,18 @@
 | [93_module3_training_evaluation.md](93_module3_training_evaluation.md) | 模型训练与评估 |
 | [94_module4_visualization_results.md](94_module4_visualization_results.md) | 结果可视化 |
 
+
+
+### 教程 10：不平衡数据（模块 100-104）
+
+| 模块 | 内容 |
+|------|------|
+| [100_module0_data_loading_and_eda.md](100_module0_data_loading_and_eda.md) | 数据加载与 EDA |
+| [101_module1_accuracy_paradox.md](101_module1_accuracy_paradox.md) | 准确率悖论 |
+| [102_module2_resampling_strategies.md](102_module2_resampling_strategies.md) | 重采样策略（SMOTE/ADASYN/欠采样） |
+| [103_module3_smote_leakage.md](103_module3_smote_leakage.md) | SMOTE 数据泄漏问题 |
+| [104_module4_cv_resampling.md](104_module4_cv_resampling.md) | 交叉验证中的重采样 |
+
 ## 使用方法
 
 **推荐顺序**（与 STUDY_GUIDE.md 的四步法一致）：

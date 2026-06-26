@@ -146,6 +146,16 @@
 | [103_module3_smote_leakage.md](103_module3_smote_leakage.md) | SMOTE 数据泄漏问题 |
 | [104_module4_cv_resampling.md](104_module4_cv_resampling.md) | 交叉验证中的重采样 |
 
+
+### 教程 11：校准与 DCA（模块 110-114）
+
+| 模块 | 内容 |
+|------|------|
+| [110_module0_data_loading.md](110_module0_data_loading.md) | 数据加载与基准模型 |
+| [111_module1_calibration_curves.md](111_module1_calibration_curves.md) | 校准曲线绘制 |
+| [112_module2_brier_decomposition.md](112_module2_brier_decomposition.md) | Brier 分数分解 |
+| [113_module3_dca_analysis.md](113_module3_dca_analysis.md) | 决策曲线分析 |
+
 ## 使用方法
 
 **推荐顺序**（与 STUDY_GUIDE.md 的四步法一致）：

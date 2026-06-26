@@ -618,7 +618,6 @@
 | 1 | [111_module1_calibration_curves.md](notes/111_module1_calibration_curves.md) | L2 |
 | 2 | [112_module2_brier_decomposition.md](notes/112_module2_brier_decomposition.md) | L2 |
 | 3 | [113_module3_dca_analysis.md](notes/113_module3_dca_analysis.md) | L2 |
-| 4 | [114_module4_clinical_interpretation.md](notes/114_module4_clinical_interpretation.md) | L3 |
 
 #### L1 核心概念与实践
 

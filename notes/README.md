@@ -183,6 +183,51 @@
 | [133_module3_deepdive_method_comparison.md](133_module3_deepdive_method_comparison.md) | 深度分析与方法对比 |
 
 
+
+
+### 教程 14：SHAP 依赖分布（模块 140-143）
+
+| 模块 | 内容 |
+|------|------|
+| [141_module1_model_shap.md](141_module1_model_shap.md) | 模型训练与 SHAP 计算 |
+| [142_module2_dual_axis_dependence.md](142_module2_dual_axis_dependence.md) | 双轴依赖图与密度分析 |
+| [143_module3_summary_density_risk.md](143_module3_summary_density_risk.md) | 汇总图、密度图与风险比分析 |
+
+### 教程 15：SHAP 聚类分析（模块 150-153）
+
+| 模块 | 内容 |
+|------|------|
+| [151_module1_kmeans_clustering.md](151_module1_kmeans_clustering.md) | K-Means 聚类与最优 K 选择 |
+| [152_module2_pca_visualization_panel.md](152_module2_pca_visualization_panel.md) | PCA 可视化面板 |
+| [153_module3_cluster_profiling_clinical.md](153_module3_cluster_profiling_clinical.md) | 集群画像与临床解读 |
+
+### 教程 16：SHAP 决策路径（模块 160-163）
+
+| 模块 | 内容 |
+|------|------|
+| [161_module1_representative_samples.md](161_module1_representative_samples.md) | 代表性样本选择 |
+| [162_module2_three_column_visualization.md](162_module2_three_column_visualization.md) | 三列可视化（Waterfall、Force、Decision） |
+| [163_module3_joint_analysis.md](163_module3_joint_analysis.md) | 联合分析 |
+
+### 教程 17：SHAP 稳定性 Bootstrap（模块 170-173）
+
+| 模块 | 内容 |
+|------|------|
+| [171_module1_bootstrap_loop.md](171_module1_bootstrap_loop.md) | Bootstrap 循环训练 |
+| [172_module2_stability_stats.md](172_module2_stability_stats.md) | 稳定性统计（CI/CV/Spearman） |
+| [173_module3_visualization_results.md](173_module3_visualization_results.md) | 可视化与结果解读 |
+
+### 教程 18：HTE DML（模块 180-184）
+
+| 模块 | 内容 |
+|------|------|
+| [180_module0_data_preprocessing.md](180_module0_data_preprocessing.md) | 数据加载与 Y/T/X/W 定义 |
+| [181_module1_drorthoforest.md](181_module1_drorthoforest.md) | DROrthoForest 训练与 CATE 估计 |
+| [182_module2_causalforestdml_comparison.md](182_module2_causalforestdml_comparison.md) | CausalForestDML 与模型比较 |
+| [183_module3_inference.md](183_module3_inference.md) | 高级推断（边际效应与效应推断） |
+| [184_module4_clustering.md](184_module4_clustering.md) | 基于 CATE 的聚类分析 |
+
+
 ## 使用方法
 
 **推荐顺序**（与 STUDY_GUIDE.md 的四步法一致）：

@@ -156,6 +156,33 @@
 | [112_module2_brier_decomposition.md](112_module2_brier_decomposition.md) | Brier 分数分解 |
 | [113_module3_dca_analysis.md](113_module3_dca_analysis.md) | 决策曲线分析 |
 
+
+
+### 教程 12：模型解释（SHAP & LIME）（模块 120-123）
+
+| 模块 | 内容 |
+|------|------|
+| [120_module0_data_model_baseline.md](120_module0_data_model_baseline.md) | 数据加载与模型训练 |
+| [121_module1_global_interpretation.md](121_module1_global_interpretation.md) | 全局解释（特征重要性、SHAP） |
+| [122_module2_local_interpretation.md](122_module2_local_interpretation.md) | 局部解释（Waterfall、LIME） |
+| [123_module3_shap_vs_lime_stability.md](123_module3_shap_vs_lime_stability.md) | SHAP vs LIME 稳定性比较 |
+
+### 教程 12b：高级 SHAP（模块 125-127）
+
+| 模块 | 内容 |
+|------|------|
+| [126_module1_advanced_dependence_3d_matrix_pie.md](126_module1_advanced_dependence_3d_matrix_pie.md) | 依赖图、3D 空间、矩阵热图、饼图 |
+| [127_module2_trend_network_quantiles.md](127_module2_trend_network_quantiles.md) | 趋势分析、网络图、分位数分析 |
+
+### 教程 13：SHAP 交互分析（模块 130-133）
+
+| 模块 | 内容 |
+|------|------|
+| [131_module1_interaction_scan_dependence.md](131_module1_interaction_scan_dependence.md) | 交互值扫描与依赖分析 |
+| [132_module2_matrix_ranking.md](132_module2_matrix_ranking.md) | 交互矩阵与排序 |
+| [133_module3_deepdive_method_comparison.md](133_module3_deepdive_method_comparison.md) | 深度分析与方法对比 |
+
+
 ## 使用方法
 
 **推荐顺序**（与 STUDY_GUIDE.md 的四步法一致）：

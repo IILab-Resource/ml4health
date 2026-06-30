@@ -1,6 +1,21 @@
 # ml4health
 面向南京医科大学卓越工程师初阶学习的医学机器学习教程项目，覆盖从探索性数据分析、统计检验到高级模型解释和因果推断的完整 ML 流程，配有详细的教学文档和可复现的 Python 代码。
 
+
+python安装教程: [python安装](https://www.runoob.com/python3/python3-install.html)
+
+python开发环境 [VSCODE](https://www.runoob.com/python3/python-vscode-setup.html)
+
+Python环境管理1 [UV](https://www.runoob.com/python3/uv-tutorial.html)
+
+Python环境管理2 [anaconda](https://www.runoob.com/python-qt/anaconda-tutorial.html)
+
+Numpy安装: [Numpy](https://www.runoob.com/numpy/numpy-install.html)
+
+
+
+
+
 ## 教程模块
 
 | 模块  | 主题                      | 能做什么（成果导向）                                 | 一句话能力标签         |

@@ -3,16 +3,38 @@
 
 数据集下载链接[数据集](https://web.ugreen.cloud/web/#/share/579b29f46e10468aadb8c17fad81ba3e) 提取码：JQ85
 
-python安装教程: [python安装](https://www.runoob.com/python3/python3-install.html)
 
-python开发环境 [VSCODE](https://www.runoob.com/python3/python-vscode-setup.html)
+## 环境安装
 
-Python环境管理1 [UV](https://www.runoob.com/python3/uv-tutorial.html)
+### 安装 Python 和必要的库
+方法一：官方安装器 [python安装](https://www.runoob.com/python3/python3-install.html)
 
-Python环境管理2 [anaconda](https://www.runoob.com/python-qt/anaconda-tutorial.html)
 
-Numpy安装: [Numpy](https://www.runoob.com/numpy/numpy-install.html)
+方法二：Anaconda 发行版 [anaconda](https://www.runoob.com/python-qt/anaconda-tutorial.html) **推荐初学者使用**
 
+
+
+
+### 虚拟环境管理
+
+ 
+
+方法一: 使用 conda 管理环境 **推荐初学者使用**
+
+
+方法二: 使用UV 管理 [UV](https://www.runoob.com/python3/uv-tutorial.html)
+ 
+
+### 开发工具
+
+方法一: jupyter notebook,演示使用
+
+
+方法二: VSCODE [VSCODE](https://www.runoob.com/python3/python-vscode-setup.html) (推荐使用)
+
+
+
+ 
 
 
 

@@ -1,6 +1,7 @@
 # ml4health
 面向南京医科大学卓越工程师初阶学习的医学机器学习教程项目，覆盖从探索性数据分析、统计检验到高级模型解释和因果推断的完整 ML 流程，配有详细的教学文档和可复现的 Python 代码。
 
+数据集下载链接[数据集](https://web.ugreen.cloud/web/#/share/579b29f46e10468aadb8c17fad81ba3e) 提取码：JQ85
 
 python安装教程: [python安装](https://www.runoob.com/python3/python3-install.html)
 

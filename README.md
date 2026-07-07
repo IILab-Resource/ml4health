@@ -35,7 +35,7 @@
 
 
  
-
+环境搭建具体流程、问题和解决方案详见  [run_first_notebook_guide.md](QA/run_first_notebook_guide.md) (感谢赵坤坤老师提供)
 
 
 

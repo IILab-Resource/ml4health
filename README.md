@@ -150,3 +150,7 @@ https://github.com/1xds/medical-ml-learning/blob/main/notes/11_calibration_dca%2
 ### 毕羽慧生工一班
 
 [模型可解释分析](https://github.com/biibansol-star/Random-Forest)
+
+
+### 2026121366 张沈煜 公卫
+[面向宏观医学数据的 Codex Skill](https://github.com/elektrolux/medical-data-analysis-skill)

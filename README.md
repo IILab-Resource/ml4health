@@ -135,3 +135,18 @@ lectures/             notes/             src/ 或 jupyter/     lectures/
 | **建模评估** | 06-11 | 降维 → 防泄漏 → CV → 建模 → 不平衡 → DCA | Node 3-4：审计 + 端到端 |
 | **可解释性 & 因果** | 12-18 | SHAP 全系列 + 双重机器学习 DML | Node 5-7：SHAP 报告 + 可视化系统 |
 
+
+## 2026暑期夏令营 学员优秀分享
+
+### 徐冬晟	24级生物信息1班	24230134
+[11_calibration_dca 可视化优化](https://github.com/1xds/medical-ml-learning/blob/main/notes/11_calibration_dca%20%E5%8F%AF%E8%A7%86%E5%8C%96%E4%BC%98%E5%8C%96.md)
+[11_calibration_dca 可视化优化](
+https://github.com/1xds/medical-ml-learning/blob/main/notes/11_calibration_dca%20%E5%8F%AF%E8%A7%86%E5%8C%96%E4%BC%98%E5%8C%96.ipynb )
+
+### 余义滨	24级智能医学工程班	24250112
+
+[原生断轴术与 adjustText 标签避让](https://github.com/yyb-ui/Data-Visualization-Notes/blob/main/README.md)
+
+### 毕羽慧生工一班
+
+[模型可解释分析](https://github.com/biibansol-star/Random-Forest)
